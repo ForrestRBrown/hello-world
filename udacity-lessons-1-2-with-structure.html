@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forrest's First HTML Website</title>
+    <meta charset="UTF-8">
+  </head>
+<body>
+<div class="lesson-1">
+  <div class="quickref">
+    <div class="title-box">
+      <h1 class="title">Lesson One: Basics of the Web and HTML</h1>
+    </div>
+    <div class="topics">
+      <ul>
+        <li><a href="#l1-introtoweb">Introduction to the Web</a></li>
+        <li><a href="#l1-htmlbasics">HTML Basics</a></li>
+        <li><a href="#l1-stupidcomputers">Computers Are Stupid</a></li>
+        <li><a href="#l1-inlinevsblock">Inline vs. Block Elements</a></li>
+        <li><a href="#l1-docstructure">Document Structure</a></li>
+        <li><a href="#l1-summary">Summary</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bodysection">
+    <div class="title-box">
+      <h3 class="header"><a name="l1-introtoweb"><em>Introduction to the Web</em>:</a></h3>
+    </div>
+    <div class="content">
+      The internet, or web, is a three (3) part system of communicating computers. The major pieces of the web are:<br>
+      <ol>
+        <li>You, your computer, and your <u>browser</u>.</li>
+        <li>The internet, and requests made via the internet in a protocol called "Hypertext Transfer Protocol Secure" (HTTP) that unites the Web.</li>
+        <li>Servers:computers designed for storage and communication rather than personal use. Servers respond to your requests via HTTP with files, including HTML, picture, video, music, and more.
+      HTML documents form the majority of the web, and HTTP is what unites the web.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="bodysection">
+    <div class="title-box">
+      <h3 class="header"><a name="l1-htmlbasics"><em>HTML Basics</em>:</a></h3>
+    </div>
+    <div class="content">
+      <p>
+    HTML documents form the heart of the web. They consist of:<br>
+        <ol>
+          <li>Text content: what you see.</li>
+          <li>Markup: styling, or what it looks like arranged on the page</li>
+          <li>References to other documents, such as images and videos.</li>
+          <li><em>"Hyperlinks"</em> or Links.</li>
+        </ol>
+      </p>
+    </div>
+  </div>
+  <div class="bodysection">
+    <div class="title-box">
+      <h3 class="header"><a name="l1-stupidcomputers"><em>Computers are Stupid</em>:</a></h3>
+    </div>
+    <div class="content">
+      <p>
+        Computers are stupid in the sense that they take things <em><b><u>very literally</u></b></em>.
+        In this sense both computer languages and coders <u>must</u> take into account this "stupidity" of the computer.
+        Errors can arise from coding that the computer cannot read, or misinterprets.
+      </p>
+    </div>
+  </div>
+  <div class="bodysection">
+    <div class="title-box">
+      <h3 class="header"><a name="l1-inlinevsblock"><em>Inline vs. Block Elements</em>:</a></h3>
+    </div>
+    <div class=content>
+      <p>
+        There are multiple categories of elements in HTML. Those described in the lesson are <b>inline</b>, and <b>block</b>.<br>
+        -<em><b><u>Inline</u></b></em> elements are those found in the code line, such as "b", "em", "img", or "span" tags.<br>
+        -<em><b><u>Block</u></b></em> elements actually define a section within the code. This section may have other attributes like width or height. Some examples are  a "p", or "div" tag.
+      </p>
+    </div>
+  </div>
+  <div class="bodysection">
+    <div class="title-box">
+      <h3 class="header"><a name="l1-docstructure"><em>Document Structure</em>:</a></h3>
+    </div>
+    <div class="content">
+      <p>
+        The structure of an HTML document adheres to a formula. In order to better understand the structure of an HTML document, this <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/487480250923#">video</a> (from earlier in this very lesson!) is a good place to start.<br>
+        More on document structure can also be found <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/71254996060923#">here<a/>.<br>
+      </p>
+    </div>
+  </div>
+  <div class="bodysection">
+    <div class="title-box">
+      <h3 class="header"><a name="l1-summary"><em>Summary</em>:</a></h3>
+    </div>
+    <div class="content">
+      <p>
+        I'm including a link to Udacity's <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/35319693390923#">Lesson 1 summary</a> as well in order to best serve the reader.<br>
+        There are some things I've omitted in my notes, such as "anchor" tags, and "href" attributes that are useful to know (and fun to play with!).
+      </p>
+    </div>
+  </div>
+</div> <!-- End of Lesson 1-->
+<div class="lesson-2">
+  <div class="quickref">
+    <div class="title-box">
+      <h1 class="title">Lesson Two: Structure of HTML Documents</h1>
+    </div>
+    <div class="topics">
+      <p>
+        <ul>
+          <li><a href="#l2-devtools">Using Developer's Tools</a></li>
+          <li><a href="#l2-decodingbxes">Decoding Boxes</a></li>
+          <li><a href="#l2-dom">Document Object Model &lpar;DOM&rpar;</a></li>
+          <li><a href="#l2-css/style">CSS &amp; Styling</a></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="bodysection">
+    <div class="title-box">
+      <h3 class="header"><a name="l2-devtools"><em><b>Using Developer's Tools</em>:</b></a></h3>
+    </div>
+    <div class="content">
+      <p>
+        Developer's tools can be found in most browsers and are used to view the underlying code for a website.<br>
+        Examining a website like Wikipedia's HTML, it can be seen that the page is divided into boxes representing different sections of the HTML document. This ties into lesson one, where we learned about the difference between "inline" and "block" elements.
+        Visual notes and any text displayed on the page can be found with the developer's tools, although sometimes text is buried deep in &lt;div&gt; tags!<br><br>
+      </p>
+      <div class="l2-images">
+        <center>
+          Where to find your developer's tools in Chrome and Firefox:
+          <table cellspacing=25>
+            <tr>
+              <div class="l2-chromescrn">
+                <td><img src="chrome_devtools.png" alt="Chrome screenshot" style="width:400px;height:400px;"></td>
+              </div>
+              <div class="l2-firefoxscrn">
+                <td><img src="firefox_devtools.png" alt="Firefox screenshot" style="width:400px;height:400px;"></td>
+              </div>
+            </tr>
+          </table>
+        </center>
+      </div>
+    </div>
+  </div>
+    <div class="bodysection">
+      <div class=title-box>
+        <h3 class="header"><a name="l2-decodingbxes"><em><b>Decoding Boxes</em>:</b></a></h3>
+      </div>
+      <div class="content">
+        <p>
+          Every webpage can be broken down into a multitude of boxes depending on the complexity of the page. Programmers use indentation to indicate just how deep into any given box, or set of boxes you're reading into .
+          For example, the whole page could be considered a box, but within the larger box there are many other boxes representing images, videos, text and more. <u>Everything</u> visible on a webpage is a box.
+        </p>
+      </div>
+    </div>
+    <div class="bodysection">
+      <div class="title-box">
+        <h3 class="header"><a name="l2-dom"><em><b>Document Object Model</em>:</b></a></h3>
+      </div>
+      <div class="content">
+        <p>
+          Breaking down the boxes/blocks of HTML into a diagram creates a "treelike" structure that represents the organizational structure of the document. Visually, the wave-like form of the indentations programmers use represents this structure.<br>
+          This structure is referred to as the Document Object Model or "DOM"
+        </p>
+      </div>
+    </div>
+    <div class="bodysection">
+      <div class="title-box">
+        <h3 class="header"><a name="l2-css/style"><em><b>CSS &amp; Styling</em>:</b></a></h3>
+      </div>
+      <div class="content">
+        <p>
+          The lesson also begins to talk about the difference between structure and styling, or the difference between the functions of HTML and CSS. While HTML provides the structure for a document, CSS provides the styling: colors, shapes, borders, etc.
+
+
+
+
+
+</div> <!--End of Lesson 2-->
+</body>
+</html>
